@@ -1,0 +1,25 @@
+{
+  "memoriaj": [
+    {
+      "kepeleres": "jatekKepek/kepek.jpg",
+      "kepalt": "kep1"
+    },
+    {
+      "kepeleres": "jatekKepek/kepek.jpg",
+      "kepalt": "kep2"
+    }
+  ],
+  
+  "kepszoj": [
+    {
+      "szo": "asd",
+      "kepeleres": "jatekKepek/kep3.jpg",
+      "kepalt": "kep1"
+    },
+    {
+      "szo": "asd",
+      "kepeleres": "jatekKepek/kep3.jpg",
+      "kepalt": "kep1"
+    }
+  ]
+}

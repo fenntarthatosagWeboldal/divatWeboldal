@@ -1,0 +1,37 @@
+ *{
+    box-sizing: border-box;
+} 
+
+body{
+    background-image: url(kepek/kepek.jpg);
+}
+
+img{
+    max-width: 100%;
+    filter: blur(8px);
+}
+
+.kepek{
+    max-width: 50%;
+}
+
+article{
+    margin-top: 4%;
+}
+
+article div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 900px;
+    position: relative;
+}
+
+div h1{
+    margin: 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: white;
+}
