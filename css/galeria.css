@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=Libre+Bodoni&display=swap");
+
+.nev {
+  position: absolute;
+  bottom: 1px;
+  left: 16px;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ffffff,
+    0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 55px #ffffff, 0 0 75px #ffffff;
+  font-family: "Libre Bodoni", serif;
+  letter-spacing: 2px;
+}
+#cim {
+  letter-spacing: 5px;
+  font-family: "IM Fell French Canon SC", serif;
+  
+}
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.kepDiv {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  font-size: 15pt;
+  border-radius: 4px;
+  transition: all 500ms;
+  margin: 15px 5px 15px 5px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  /* filter: grayscale(100%); */
+  /* filter: blur(.6px); */
+}
+.kepDiv:hover{
+  filter: grayscale(0);
+  transform: scale(1.05);
+  filter: blur(0px);
+}
+#container {
+  text-align: center;  
+}
+a {
+  text-decoration: none;
+}
