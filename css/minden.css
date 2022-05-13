@@ -10,10 +10,10 @@ li,
 .bekezdes {
   font-family: "Exo 2", sans-serif;
   font-weight: bold;
+  padding: 20px;
 }
 .bekezdes {
   font-weight: lighter;
-
   background-color: rgba(255, 233, 204, 0.3);
 }
 h2 {
