@@ -36,10 +36,6 @@ function megjelenit() {
         txt += `<ul>`
         txt += `<li>${cikkekTomb[index][key]}</li>`
         txt += `</ul>`
-        // if (key.includes("fels")) {
-        //txt+=`<li>${cikkekTomb[index][key]}</li>`
-
-        //}
       }
       else if (key.includes("szerzo")) {
         txt += `<p>${cikkekTomb[index][key]}</p>`;
