@@ -24,3 +24,40 @@ footer {
   justify-content: center;
   background-color: rgb(200, 158, 103);
 }
+#sidebar ul li {
+  list-style: none;
+
+  font-size: 20px;
+  padding: 20px 24px;
+}
+
+#sidebar .toggle-btn {
+  position: absolute;
+  top: 30px;
+  left: 330px;
+}
+
+.toggle-btn span {
+  width: 45px;
+  height: 4px;
+  background-color: rgb(200, 158, 103);
+  display: block;
+  margin-top: 4px;
+}
+a {
+  text-decoration: none;
+}
+#sidebar.active {
+  left: 0;
+}
+#sidebar a {
+  color: rgb(0, 0, 0);
+}
+#sidebar {
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  background-color: rgba(53, 35, 9, 0.3);
+  left: -300px;
+  transition: 0.5s;
+}

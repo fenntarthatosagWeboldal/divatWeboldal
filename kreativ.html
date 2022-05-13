@@ -6,14 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Galéria</title>
     <link rel="icon" href="egyebkepek/icon.ico" />
+    <script src="js/nav.js"></script>
     <script src="js/adatfeldolgoz.js"></script>
     <script src="js/KR.js"></script>
     <link rel="stylesheet" href="css/galeria.css" />
     <link rel="stylesheet" href="css/minden.css" />
   </head>
   <body style="background-image: url(egyebkepek/b2.jpg)">
+    <nav id="sidebar">
+      <div class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cikkek.html">Cikkek</a></li>
+        <li><a href="#">Galéria</a></li>
+        <li><a href="jatekok.html">Játékok</a></li>
+      </ul>
+    </nav>
     <article id="container">
-      <h1 id="cim">Divatbemutató galéria</h1>
+      <header><h1 id="cim">Divatbemutató galéria</h1></header>
+      
       <section id="bevezetes">
         <h2 id="alcim">A kreatív kísérletek kollekció:</h2>
         <p>
@@ -33,7 +48,8 @@
     </article>
     <footer>
       <p>
-        Készítők: Szundi Kata, Rohácsi Daniella, Vitay Zalán, Polgár Attila, Vetési György Ádám
+        Készítők: Szundi Kata, Rohácsi Daniella, Vitay Zalán, Polgár Attila,
+        Vetési György Ádám
       </p>
     </footer>
   </body>
