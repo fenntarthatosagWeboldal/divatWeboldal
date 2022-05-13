@@ -19,3 +19,8 @@ li,
 h2 {
   font-family: "Cinzel", serif;
 }
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(200, 158, 103);
+}
