@@ -1,129 +1,122 @@
 <!DOCTYPE html>
 <html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="egyebkepek/icon.ico" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/minden.css" />
+    <title>Home</title>
+    <script src="js/nav.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="egyebkepek/icon.ico" />
-  <link rel="stylesheet" href="css/home.css" />
-  <link rel="stylesheet" href="css/minden.css" />
-  <title>Home</title>
-  <script src="js/nav.js"></script>
-</head>
-
-<body>
-  <header>
-    <h1>Divatbemutató</h1>
-    <nav id="sidebar">
-      <div class="toggle-btn">
-        <img id="hamburgermenuicon" src="homekepek/hamburgermenuicon5.jpg" alt="">
-      </div>
-      <ul>
-        <li><a href="#section1">Home</a></li>
-        <li><a href="#section2">Cikkek</a></li>
-        <li><a href="#section3">Galéria</a></li>
-        <li><a href="#section4">Játékok</a></li>
-      </ul>
-    </nav>
-  </header>
-  <article style="background-image: url(egyebkepek/b2.jpg)">
-    <section id="section1">
-      <div id="elsoharomdiv">
-        <h1>Bemutatkozás</h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae sit
-          quo voluptate illo. Iste, eum praesentium voluptas similique
-          consequatur dicta, impedit velit labore obcaecati voluptatum dolorum
-          omnis placeat, voluptatem magni.
-        </p>
-        <img id="divkepek" src="foKepek/esemeny/1.jpg" alt="">
-      </div>
-    </section>
-    <section id="section2">
-      <div id="elsoharomdiv">
-        <h1>Cikkek</h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae sit
-          quo voluptate illo. Iste, eum praesentium voluptas similique
-          consequatur dicta, impedit velit labore obcaecati voluptatum dolorum
-          omnis placeat, voluptatem magni.
-        </p>
-        <img id="divkepek" src="foKepek/esemeny/1.jpg" alt="">
-        <p>gomb</p>
-      </div>
-
-    </section>
-    <section id="section3">
-      <div id="elsoharomdiv">
-        <div class="galeriadropdown">
-          <button onclick="myFunction()" class="dropbtn"><h1>Galéria</h1>
-            <img id="dropdownmenuicon" src="homeKepek/dropdownmenuicon.png" alt=""></button>
-          <div id="myDropdown" class="dropdown-content">
-            <a href="esemeny.html">Esemény fotók</a>
-            <a href="kreativ.html">Kreatív galéria</a>
-            <a href="zerowaste.html">ZeroWaste galéria</a>
-          </div>
+  <body>
+    <header>
+      <h1>Divatbemutató</h1>
+      <nav id="sidebar">
+        <div class="toggle-btn">
+          <img
+            id="hamburgermenuicon"
+            src="homekepek/hamburgermenuicon5.jpg"
+            alt=""
+          />
         </div>
-
-        <script>
-
-          function myFunction() {
-            document.getElementById("myDropdown").classList.toggle("show");
-          }
-          window.onclick = function (event) {
-            if (!event.target.matches('.dropbtn')) {
-              var dropdowns = document.getElementsByClassName("dropdown-content");
-              var i;
-              for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                  openDropdown.classList.remove('show');
-                }
-              }
-            }
-          }
-        </script>
-
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae sit
-          quo voluptate illo. Iste, eum praesentium voluptas similique
-          consequatur dicta, impedit velit labore obcaecati voluptatum dolorum
-          omnis placeat, voluptatem magni.
-        </p>
-        <img id="divkepek" src="foKepek/esemeny/1.jpg" alt="">
-      </div>
-    </section>
-    <section id="section4">
-      <div id="div4">
-        <h1>Játékok</h1>
-        <div id="div4tartalom">
-          <div id="div4/a">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
-              sit quo voluptate illo. Iste, eum praesentium voluptas similique
-              consequatur dicta, impedit velit labore obcaecati voluptatum
-              dolorum omnis placeat, voluptatem magni.
-            </p>
-          </div>
-          <div id="div4/b">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
-              sit quo voluptate illo. Iste, eum praesentium voluptas similique
-              consequatur dicta, impedit velit labore obcaecati voluptatum
-              dolorum omnis placeat, voluptatem magni.
-            </p>
-          </div>
+        <ul>
+          <li><a href="#section1">Home</a></li>
+          <li><a href="#section2">Cikkek</a></li>
+          <li><a href="#section3">Galéria</a></li>
+          <li><a href="#section4">Játékok</a></li>
+        </ul>
+      </nav>
+    </header>
+    <article style="background-image: url(egyebkepek/b2.jpg)">
+      <section id="section1">
+        <div id="elsoharomdiv">
+          <h1>Bemutatkozás</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae sit
+            quo voluptate illo. Iste, eum praesentium voluptas similique
+            consequatur dicta, impedit velit labore obcaecati voluptatum dolorum
+            omnis placeat, voluptatem magni.
+          </p>
+          <img id="divkepek" src="foKepek/esemeny/1.jpg" alt="" />
         </div>
-        <p>gomb</p>
-      </div>
-    </section>
-  </article>
-  <footer>
-    <p>
-      Készítők: Szundi Kata, Rohácsi Daniella, Vitay Zalán, Polgár Attila, Vetési György Ádám
-    </p>
-  </footer>
-</body>
+      </section>
+      <section id="section2">
+        <div id="elsoharomdiv">
+          <h1>Cikkek</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae sit
+            quo voluptate illo. Iste, eum praesentium voluptas similique
+            consequatur dicta, impedit velit labore obcaecati voluptatum dolorum
+            omnis placeat, voluptatem magni.
+          </p>
+          <img id="divkepek" src="foKepek/esemeny/1.jpg" alt="" />
+          <p>gomb</p>
+        </div>
+      </section>
+      <section id="section3">
+        <div id="elsoharomdiv">
+          <div class="galeriadropdown">
+            <h1 onclick="myFunction()" class="dropbtn">Galéria</h1>
+            <img
+              onclick="myFunction()"
+              class="dropbtn"
+              id="dropdownmenuicon"
+              src="homeKepek/dropdownmenuicon.png"
+              alt=""
+            />
+            <div id="myDropdown" class="dropdown-content">
+              <a href="esemeny.html">Esemény fotók</a>
+              <a href="kreativ.html">Kreatív galéria</a>
+              <a href="zerowaste.html">ZeroWaste galéria</a>
+            </div>
+          </div>
 
+          <script>
+           
+          </script>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae sit
+            quo voluptate illo. Iste, eum praesentium voluptas similique
+            consequatur dicta, impedit velit labore obcaecati voluptatum dolorum
+            omnis placeat, voluptatem magni.
+          </p>
+          <img id="divkepek" src="foKepek/esemeny/1.jpg" alt="" />
+        </div>
+      </section>
+      <section id="section4">
+        <div id="div4">
+          <h1>Játékok</h1>
+          <div id="div4tartalom">
+            <div id="div4/a">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                sit quo voluptate illo. Iste, eum praesentium voluptas similique
+                consequatur dicta, impedit velit labore obcaecati voluptatum
+                dolorum omnis placeat, voluptatem magni.
+              </p>
+            </div>
+            <div id="div4/b">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                sit quo voluptate illo. Iste, eum praesentium voluptas similique
+                consequatur dicta, impedit velit labore obcaecati voluptatum
+                dolorum omnis placeat, voluptatem magni.
+              </p>
+            </div>
+          </div>
+          <p>gomb</p>
+        </div>
+      </section>
+    </article>
+    <footer>
+      <p>
+        Készítők: Szundi Kata, Rohácsi Daniella, Vitay Zalán, Polgár Attila,
+        Vetési György Ádám
+      </p>
+    </footer>
+  </body>
 </html>
