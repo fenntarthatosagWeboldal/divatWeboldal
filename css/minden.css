@@ -19,6 +19,39 @@ li,
 h2 {
   font-family: "Cinzel", serif;
 }
+
+#section2 #elsoharomdiv h1,h2,p{
+  padding:20px
+}
+
+#section2 #elsoharomdiv .bekezdes{
+  padding:0px
+}
+
+#section2 #elsoharomdiv button{
+  padding: 5px;
+  border-radius: 8px;
+  border-color: rgb(152, 145, 134);
+  background-color: rgb(152, 145, 134);
+  color: white;
+  margin: 10px;
+}
+
+#section2 #elsoharomdiv button:hover{
+  padding: 5px;
+  border-radius: 8px;
+  border-color: rgb(152, 145, 134);
+  background-color: rgb(152, 145, 134);
+  color: white;
+  margin: 10px;
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+#section2 #elsoharomdiv a{
+  text-decoration: none;
+  color: white;
+}
 footer {
   display: flex;
   justify-content: center;
