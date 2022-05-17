@@ -11,7 +11,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 header h1 {
   margin-top: 10px;
 }
@@ -35,31 +34,29 @@ section {
 }
 
 #div1 {
-  background-color: rgb(200, 158, 103,.8);
+  background-color: rgb(200, 158, 103, 0.8);
   margin-top: 50px;
 }
 
-#divkepek{
+#divkepek {
   height: 300px;
   width: 200px;
-
 }
 
-#div4tartalom{
+#div4tartalom {
   display: flex;
   flex-direction: row;
 }
 
-#dropdownmenuicon{
+#dropdownmenuicon {
   height: 15px;
 }
 
-.galeriadropdown button{
+.galeriadropdown button {
   display: flex;
   flex-direction: row;
   max-height: 10%;
 }
-
 section div {
   display: flex;
   justify-content: center;
@@ -76,15 +73,11 @@ p {
   max-width: 80%;
 }
 
-
-@media screen and (max-width:400px) {
-  #divkepek{
+@media screen and (max-width: 400px) {
+  #divkepek {
     height: 170px;
-    
   }
-
 }
-
 
 .dropbtn {
   background-color: rgb(252, 241, 213);
@@ -95,25 +88,21 @@ p {
   cursor: pointer;
 }
 
-.galeriadropdown{
+.galeriadropdown {
   max-height: 10%;
-}
-
-
-.galeriadropdown button{
   display: flex;
-  justify-content: center;
+  flex-direction: row;
 }
 
-#myDropdown{
+#myDropdown {
   height: 100px;
 }
-
 
 .dropdown-content {
   display: none;
   position: absolute;
   overflow: auto;
+  width:250px;
 }
 
 .dropdown-content a {
@@ -123,7 +112,10 @@ p {
   display: flex;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown a:hover {
+  background-color: #ddd;
+}
 
-.show {display: flex;}
-
+.show {
+  display: flex;
+}
