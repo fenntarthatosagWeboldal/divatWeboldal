@@ -38,7 +38,19 @@ function megjelenit() {
         txt += `</ul>`
       }
       else if (key.includes("szerzo")) {
-        txt += `<p>${cikkekTomb[index][key]}</p>`;
+        txt += `<p class="szerzo">${cikkekTomb[index][key]}</p>`;
+      }
+      else if(key.includes("link1")){
+        txt += `<a href="https://vitafutura.hu/mit-jelent-a-fenntarthatosag/" target="_blank">${cikkekTomb[index][key]}</a>`;
+      }
+      else if(key.includes("link2")){
+        txt += `<a href="https://www.tisztajovo.hu/" target="_blank">${cikkekTomb[index][key]}</a>`;
+      }
+      else if(key.includes("link3")){
+        txt += `<a href="https://www.fenntarthatosagi.temahet.hu/" target="_blank">${cikkekTomb[index][key]}</a>`;
+      }
+      else if(key.includes("link4")){
+        txt += `<a href="https://xforest.hu/oceanok/" target="_blank">${cikkekTomb[index][key]}</a>`;
       }
 
     }
