@@ -24,11 +24,16 @@ footer {
   justify-content: center;
   background-color: rgb(200, 158, 103);
 }
-#sidebar ul li {
+nav ul li {
+  display: flex;
   list-style: none;
-
   font-size: 20px;
   padding: 20px 24px;
+  justify-content: center;
+}
+
+nav ul{
+  padding-top: 30px;
 }
 
 #sidebar .toggle-btn {
@@ -37,13 +42,6 @@ footer {
   left: 330px;
 }
 
-.toggle-btn span {
-  width: 45px;
-  height: 4px;
-  background-color: rgb(200, 158, 103);
-  display: block;
-  margin-top: 4px;
-}
 a {
   text-decoration: none;
 }
@@ -60,4 +58,30 @@ a {
   background-color: rgba(53, 35, 9, 0.3);
   left: -300px;
   transition: 0.5s;
+}
+
+
+#hamburgermenuicon{
+  height: 40px;
+  left: 0;
+  top: 0;
+  position: fixed;
+}
+
+
+@media screen and (max-width:400px) {
+  h1{
+    font-size: 20px;
+  }
+  p{
+    font-size: 10px;
+  }
+
+  section div {
+    height: 80%;
+  }
+
+  section {
+    height: 500px;
+  }
 }

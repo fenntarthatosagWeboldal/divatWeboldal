@@ -39,6 +39,27 @@ section {
   margin-top: 50px;
 }
 
+#divkepek{
+  height: 300px;
+  width: 200px;
+
+}
+
+#div4tartalom{
+  display: flex;
+  flex-direction: row;
+}
+
+#dropdownmenuicon{
+  height: 15px;
+}
+
+.galeriadropdown button{
+  display: flex;
+  flex-direction: row;
+  max-height: 10%;
+}
+
 section div {
   display: flex;
   justify-content: center;
@@ -47,6 +68,7 @@ section div {
   max-width: 80%;
   align-items: center;
   align-self: center;
+  flex-direction: column;
 }
 
 p {
@@ -54,4 +76,54 @@ p {
   max-width: 80%;
 }
 
+
+@media screen and (max-width:400px) {
+  #divkepek{
+    height: 170px;
+    
+  }
+
+}
+
+
+.dropbtn {
+  background-color: rgb(252, 241, 213);
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.galeriadropdown{
+  max-height: 10%;
+}
+
+
+.galeriadropdown button{
+  display: flex;
+  justify-content: center;
+}
+
+#myDropdown{
+  height: 100px;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  overflow: auto;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 3px 3px;
+  text-decoration: none;
+  display: flex;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: flex;}
 
