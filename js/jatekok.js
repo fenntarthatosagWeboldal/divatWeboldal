@@ -32,6 +32,7 @@ function memoria() {
 //init
 function init() {
     feltolt()
+    mutat()
     //memoria()
 }
 
@@ -49,4 +50,22 @@ function feltolt() {
         .catch((err) => {
             console.log(err)
         });
+}
+
+function mutat(){
+    var divkep = Class("kepek")
+    for (let i = 0; i < divkep.length; i++) {
+        divkep[i].addEventListener("click", memoria)
+        divkep[i].addEventListener("mouseover", hover)
+        divkep[i].addEventListener("mouseout", hoverOff) 
+    }
+    
+}
+
+function hover(){
+    event.target.className += " cursor"
+}
+
+function hoverOff(){
+    event.target.className = "kepek"
 }
