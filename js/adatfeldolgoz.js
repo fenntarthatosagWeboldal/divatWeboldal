@@ -12,11 +12,9 @@ function beolvas(fajlnev, tomb, jsonTomb, callback) {
     })
 }
 function feltoltRuhak(tomb) {
-
   let txt = "";
   for (let i = 0; i < tomb.length; i++) {
     txt += `<div class = "kepDiv" style="background-image: url(${tomb[i].eleresiUt});"><h3 class="nev">${tomb[i].alkotoNev}</h3></div>`
   }
-  ID("content").innerHTML = txt; 
-
+  ID("content").innerHTML = txt;
 }
