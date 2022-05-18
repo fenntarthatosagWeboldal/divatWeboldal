@@ -1,12 +1,8 @@
- *{
+*{
     box-sizing: border-box;
 } 
 
-body{
-    background-image: url(kepek/kepek.jpg);
-}
-
-img{
+.kepek img{
     max-width: 100%;
     filter: blur(8px);
 }
@@ -16,22 +12,34 @@ img{
 }
 
 article{
-    margin-top: 4%;
+    display: flex;
 }
 
 article div{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
     max-width: 900px;
-    position: relative;
+}
+
+header h1{
+    text-align: center;
 }
 
 div h1{
     margin: 0px;
+
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
     color: white;
+}
+
+footer{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
 }
