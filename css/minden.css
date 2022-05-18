@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=Libre+Bodoni&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap");
+body{
+  background-image: url(../egyebkepek/b2.jpg);
+}
+
 h1 {
   letter-spacing: 5px;
   font-family: "IM Fell French Canon SC", serif;
