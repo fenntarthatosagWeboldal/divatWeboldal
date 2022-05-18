@@ -29,11 +29,11 @@ function megjelenit() {
         txt += `<div class="bekezdes">${cikkekTomb[index][key]}</div>`
       }
       else if (key.includes("kep")) {
-        txt += `<img src="${cikkekTomb[index][key]}"alt="">`
+        txt += `<img src="${cikkekTomb[index][key]}"alt="" width=100>`
       }
       else if (key.includes("felsorolas")) {
         console.log(cikkekTomb[index][key])
-        txt += `<ul>`
+        txt += `<ul class="cikkekFels">`
         cikkekTomb[index][key].forEach(felsEleme => {
           txt += `<li>${felsEleme}</li>`
         });
@@ -53,6 +53,18 @@ function megjelenit() {
       }
       else if(key.includes("link4")){
         txt += `<div class="bekezdes"><a href="https://xforest.hu/oceanok/" target="_blank">${cikkekTomb[index][key]}</a></div>`;
+      }
+      else if(key.includes("link5")){
+        txt += `<div class="bekezdes"><a href="https://holyduck.hu/hol-vasaroljak/ruhak-masodkezbol-legjobb-lelohelyek/" target="_blank">${cikkekTomb[index][key]}</a></div>`;
+      }
+      else if(key.includes("link6")){
+        txt += `<div class="bekezdes"><a href="https://holyduck.hu/2019/09/03/hasznalt-ruha-szeptember-magyarorszag-turkalo/" target="_blank">${cikkekTomb[index][key]}</a></div>`;
+      }
+      else if(key.includes("link7")){
+        txt += `<div class="bekezdes"><a href="https://holyduck.hu/hol-vasaroljak/fenntarthato-es-etikus-magyar-tervezok-alkotok/" target="_blank">${cikkekTomb[index][key]}</a></div>`;
+      }
+      else if(key.includes("link8")){
+        txt += `<div class="bekezdes"><a href="https://holyduck.hu/hol-vasaroljak/etikus-divat-magyar-webshop/" target="_blank">${cikkekTomb[index][key]}</a></div>`;
       }
 
     }
