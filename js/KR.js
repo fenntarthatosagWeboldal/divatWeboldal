@@ -12,22 +12,5 @@ for (let i = 1; i <= 54; i++) {
 }
 function init() {
   beolvas("kepek.json", krRuhak, "kreativ", feltoltRuhak)
-  atad()
+  
 }
-function atad() {
-  let tomb = Class("kepDiv")
-  for (let i = 0; i < tomb.length; i++) {
-    tomb[i].addEventListener("click", atad2)
-  }
-}
-function atad2() {
-  console.log("atad2")
-  let azonIndex
-  for (let i = 0; i < krRuhak.length; i++) {
-    if (event.target.innerHTML == krRuhak[i].alkotoNev) {
-      azonIndex = i
-    }
-  }
-  atadnivalo = i
-  localStorage.setItem("azon", krRuhak[azonIndex].azon)
-} 
