@@ -122,9 +122,10 @@ a {
   position: fixed;
   width: 250px;
   height: 100%;
-  background-color: rgba(53, 35, 9, 0.3);
+  background-color: rgba(174, 146, 109, 0.7);
   left: -300px;
   transition: 0.5s;
+
 }
 
 #hamburgermenuicon {
