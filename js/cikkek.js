@@ -32,8 +32,11 @@ function megjelenit() {
         txt += `<img src="${cikkekTomb[index][key]}"alt="">`
       }
       else if (key.includes("felsorolas")) {
+        console.log(cikkekTomb[index][key])
         txt += `<ul>`
-        txt += `<li>${cikkekTomb[index][key]}</li>`
+        cikkekTomb[index][key].forEach(felsEleme => {
+          txt += `<li>${felsEleme}</li>`
+        });
         txt += `</ul>`
       }
       else if (key.includes("szerzo")) {
@@ -65,7 +68,6 @@ function beolvas(tomb, fajlnev, callbackfv) {
       console.log(adat)
       console.log(adat.cikkek);
       adat.cikkek.forEach(cikk => {
-        console.log(cikk)
         tomb.push(cikk)
       });
       callbackfv()

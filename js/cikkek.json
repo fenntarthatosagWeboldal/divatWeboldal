@@ -14,7 +14,7 @@
     "alcim": "Mit is találhatunk egy ilyen boltban?",
     "bekezdes": "Ezen üzletek általában bio, vegyszerektől mentes, kisüzemben gyártott hazai élelmiszereket árulnak, így számolni kell azzal, hogy a termékek valamivel drágábbak lesznek a megszokottnál. Az élelmiszer mellett számos boltban találkozhatunk kimérős tisztítószerekkel is, illetve általában a hulladékmentes életmód kellékeinek széles választékát is megtaláljuk, mint például vizes palack, textil szalvéta vagy fém szívószál.",
     "kep": "",
-    "szerzo": "Szerző"
+    "szerzo": "Karányi Alexandra Viktória"
   },
 
 
@@ -29,7 +29,7 @@
   },
   { 
     "kep": "", 
-    "szerzo": "Szerző" 
+    "szerzo": "Vigh Zsófia" 
   },
 
 
@@ -37,20 +37,19 @@
     "alcim": "PLUSZ érdekességek, alternatívák, lépések a hulladékmentes(ebb) jövőnk felé.",
     "bekezdes": "Neked is fontos a fenntarthatóság? Rengeteg lehetőséged van tenni a környezetedért. Nagyon fontos ha már egy alternatívát kiváltasz, már azzal is nagyon sokat tehetsz környezeted egészségéért. Hulladékmentes alternatíva az egyszer használatos, eldobható tárgyak helyett:",
     "felsorolas": [
-      {"fels":"Műanyag zacskó helyett vászontáskát használj!"},
-      {"fels":"Elviteles, automatás kávéhoz saját termosz vagy műanyag poharat használni"},
-      {"fels":"PET-palackos italok helyett használj saját kulacsot!"},
-      {"fels":"A zöldségesnél, pékségben használatos leheletvékony kisméretű műanyag zacskók helyett használj zsinóros vászonzsákokat!"}
-      ,
-      {"fels":"Műanyag fogkefék helyett használj, fanyelű természetes sörtéjűt"},
-      {"fels":"Eldobható műanyag borotvák helyett használj hagyományos fém biztonsági borotvát cserélhető borotvapengékkel."},
-      {"fels":"Sminklemosó és vattakorongok helyett, használj mosható arctisztító párnákat!"},
-      {"fels":"Műanyag szívószál helyett papír szívószálat használj!" },
-      {"fels":"Műanyag evőeszközök helyett használj fa vagy fém evőeszközöket! "},
-      {"fels":"Mesterséges illatok helyett frissítsd otthonod levegőjét inkább természetes illóolajokkal"}
+      "Műanyag zacskó helyett vászontáskát használj!",
+      "Elviteles, automatás kávéhoz saját termosz vagy műanyag poharat használni",
+      "PET-palackos italok helyett használj saját kulacsot!",
+      "A zöldségesnél, pékségben használatos leheletvékony kisméretű műanyag zacskók helyett használj zsinóros vászonzsákokat.",
+      "Műanyag fogkefék helyett használj, fanyelű természetes sörtéjűt",
+      "Eldobható műanyag borotvák helyett használj hagyományos fém biztonsági borotvát cserélhető borotvapengékkel.",
+      "Sminklemosó és vattakorongok helyett, használj mosható arctisztító párnákat!",
+      "Műanyag szívószál helyett papír szívószálat használj!" ,
+      "Műanyag evőeszközök helyett használj fa vagy fém evőeszközöket! ",
+      "Mesterséges illatok helyett frissítsd otthonod levegőjét inkább természetes illóolajokkal"
       
     ],
-    "szerzo": "Szerző"
+    "szerzo": "Pipics Dorottya"
   },
 
 
@@ -95,7 +94,7 @@
   },
   {
     "bekezdes": "Maison Marquise-A klasszikus nőies eleganciát képviselő márka a funkcionális alapdarabok híve, olyan, egymással jól variálható kollekciókban gondolkodik, amelyek könnyen alakíthatóak át a hétköznapi üzleti viseletből elegáns esti megjelenéssé. A hazai gyártásban, helyi varrodában minőségi anyagok felhasználásával készült kollekció egyik alapdarabja az arany betéttel feldobott, oldalt felsliccelt sötétkék maxiruha, amiért 84,000 forintot kérnek a webshopban.",
-    "szerzo": "Szerző"
+    "szerzo": "Tuli Emese Boglárka"
   },
 
 
@@ -122,7 +121,7 @@
   },
   {
     "bekezdes": "A SZÁMALK - Szalézi Technikum és Szakgimnázium az idei Fenntarthatósági héten is részt vesz már 2. alkalommal. Az idei évben több osztály is részt vesz az előkészületekben: Divat-, jelmez- és díszlettervező; Szoftverfejlesztő és tesztelő; Pedagógiai munkatárs; Dekoratőr; Grafikus; Fotográfus és Közművelődési munkatárs diákjai.",
-    "szerzo": "Szerző"
+    "szerzo": "Bevezető"
   },
 
 
@@ -145,7 +144,7 @@
     "alcim": "KERT-KÓSTOLGATÓ PÁLYÁZAT",
     "bekezdes": "A pályázat célja, hogy az iskolás csoportok egy saját tervezésű legalább 1 m2 iskolakertet hozzanak létre. Az iskolakertbe olyan növények ültetését várjuk, amelyek az a fenntarthatóságot szolgálják. Az iskolakert létrehozását dokumentálni kell a tervezéstől a kivitelezésig",
     "kep": "",
-    "szerzo": "Szerző"
+    "szerzo": "Kovács Gréta"
   },
 
 
@@ -208,7 +207,7 @@
     "alcim": "Fenntarthatóság az iskolában",
     "bekezdes": "Az iskolákban lenne a legfontosabb, ha a fenntarthatóságról többet beszélnének, tanítanának róla, így már kiskoruktól kezdve figyelnének a környezetükre. Meg kell tanítani az iskolákban hogyqn gyűjtsék a hulladékot szelektíven, ne pazaroljanak, ne szemeteljenek, és hogyan védjék meg a Földünket. Ne használjanak műanyagot, helyette számos megoldás található ami környezettudatos. ",
     "kep": "",
-    "szerzo": "Szerző"
+    "szerzo": "Bolla Bettina Réka"
   },
 
 
@@ -236,7 +235,7 @@
     "alcim": "Színház újrahasznosított papírból",
     "bekezdes": "A színházat alkotó, újrahasznosított papírból álló bálák elsősorban régi magazinokból, újságokból és irodai hulladékokból készülnek. A színház teteje egy használt cirkuszi sátor újrahasznosításával alakítanak ki, melyet bambusszal feszítenek ki. A sátor tetején elhelyezett nyílásnak köszönhetően pedig mesterséges színpadi világításra sincs szükség, a természetes fény elég a nappali előadásokhoz.",
     "kep": "",
-    "szerzo": "Szerző"
+    "szerzo": "PItyer Viktória Krisztina"
   },
 
 
@@ -313,7 +312,7 @@
     "link1": "LINK: https://vitafutura.hu/mit-jelent-a-fenntarthatosag/"
   },
   {
-    "szerzo": "Szerző"
+    "szerzo": "Oláh Barbara"
   },
 
 
@@ -403,7 +402,7 @@
     "link4": "LINK: Óceánok: mi a szerepük az életben, hogyan óvjuk őket? | xForest"
   },
   {
-    "szerzo": "Szerző"
+    "szerzo": "Zachar Veronika"
   }
 ]
 }
