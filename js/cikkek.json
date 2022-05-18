@@ -14,7 +14,7 @@
     "alcim": "Mit is találhatunk egy ilyen boltban?",
     "bekezdes": "Ezen üzletek általában bio, vegyszerektől mentes, kisüzemben gyártott hazai élelmiszereket árulnak, így számolni kell azzal, hogy a termékek valamivel drágábbak lesznek a megszokottnál. Az élelmiszer mellett számos boltban találkozhatunk kimérős tisztítószerekkel is, illetve általában a hulladékmentes életmód kellékeinek széles választékát is megtaláljuk, mint például vizes palack, textil szalvéta vagy fém szívószál.",
     "kep": "",
-    "szerzo": ""
+    "szerzo": "Szerző"
   },
 
 
@@ -29,7 +29,7 @@
   },
   { 
     "kep": "", 
-    "szerzo": "" 
+    "szerzo": "Szerző" 
   },
 
 
@@ -50,7 +50,7 @@
       {"fels":"Mesterséges illatok helyett frissítsd otthonod levegőjét inkább természetes illóolajokkal"}
       
     ],
-    "szerzo": ""
+    "szerzo": "Szerző"
   },
 
 
@@ -95,7 +95,7 @@
   },
   {
     "bekezdes": "Maison Marquise-A klasszikus nőies eleganciát képviselő márka a funkcionális alapdarabok híve, olyan, egymással jól variálható kollekciókban gondolkodik, amelyek könnyen alakíthatóak át a hétköznapi üzleti viseletből elegáns esti megjelenéssé. A hazai gyártásban, helyi varrodában minőségi anyagok felhasználásával készült kollekció egyik alapdarabja az arany betéttel feldobott, oldalt felsliccelt sötétkék maxiruha, amiért 84,000 forintot kérnek a webshopban.",
-    "szerzo": ""
+    "szerzo": "Szerző"
   },
 
 
@@ -108,7 +108,10 @@
     "bekezdes": "Könyvcsere; Ruhacsere; Használt póló megújító workshop; Ovisoknak kézműves foglalkozás és versenyek; Divatbemutató és Verseny az osztályok között, aminek a címe tedd zöldebbé a földet."
   },
   {
-    "bekezdes": "Ha többet szeretnél megtudni itt a program hivatalos weboldala https://www.fenntarthatosagi.temahet.hu/ de persze a mi weboldalunkon is nézz körbe."
+    "bekezdes": "Ha többet szeretnél megtudni itt a program hivatalos weboldala, de persze a mi weboldalunkon is nézz körbe."
+  },
+  {
+    "link3":"LINK: https://www.fenntarthatosagi.temahet.hu/"
   },
   {
     "alcim": "Célja?",
@@ -119,7 +122,7 @@
   },
   {
     "bekezdes": "A SZÁMALK - Szalézi Technikum és Szakgimnázium az idei Fenntarthatósági héten is részt vesz már 2. alkalommal. Az idei évben több osztály is részt vesz az előkészületekben: Divat-, jelmez- és díszlettervező; Szoftverfejlesztő és tesztelő; Pedagógiai munkatárs; Dekoratőr; Grafikus; Fotográfus és Közművelődési munkatárs diákjai.",
-    "szerzo": ""
+    "szerzo": "Szerző"
   },
 
 
@@ -142,7 +145,7 @@
     "alcim": "KERT-KÓSTOLGATÓ PÁLYÁZAT",
     "bekezdes": "A pályázat célja, hogy az iskolás csoportok egy saját tervezésű legalább 1 m2 iskolakertet hozzanak létre. Az iskolakertbe olyan növények ültetését várjuk, amelyek az a fenntarthatóságot szolgálják. Az iskolakert létrehozását dokumentálni kell a tervezéstől a kivitelezésig",
     "kep": "",
-    "szerzo": ""
+    "szerzo": "Szerző"
   },
 
 
@@ -205,7 +208,7 @@
     "alcim": "Fenntarthatóság az iskolában",
     "bekezdes": "Az iskolákban lenne a legfontosabb, ha a fenntarthatóságról többet beszélnének, tanítanának róla, így már kiskoruktól kezdve figyelnének a környezetükre. Meg kell tanítani az iskolákban hogyqn gyűjtsék a hulladékot szelektíven, ne pazaroljanak, ne szemeteljenek, és hogyan védjék meg a Földünket. Ne használjanak műanyagot, helyette számos megoldás található ami környezettudatos. ",
     "kep": "",
-    "szerzo": ""
+    "szerzo": "Szerző"
   },
 
 
@@ -233,7 +236,7 @@
     "alcim": "Színház újrahasznosított papírból",
     "bekezdes": "A színházat alkotó, újrahasznosított papírból álló bálák elsősorban régi magazinokból, újságokból és irodai hulladékokból készülnek. A színház teteje egy használt cirkuszi sátor újrahasznosításával alakítanak ki, melyet bambusszal feszítenek ki. A sátor tetején elhelyezett nyílásnak köszönhetően pedig mesterséges színpadi világításra sincs szükség, a természetes fény elég a nappali előadásokhoz.",
     "kep": "",
-    "szerzo": ""
+    "szerzo": "Szerző"
   },
 
 
@@ -307,8 +310,10 @@
     "bekezdes": "Társadalmi szerepvállalás fontossága."
   },
   {
-    "bekezdes": "LINK:https://vitafutura.hu/mit-jelent-a-fenntarthatosag/",
-    "szerzo": ""
+    "link1": "LINK: https://vitafutura.hu/mit-jelent-a-fenntarthatosag/"
+  },
+  {
+    "szerzo": "Szerző"
   },
 
 
@@ -330,7 +335,7 @@
     "bekezdes": "Az jó ügy édekében Kínának és még sok más országnak teljesen át kell alakítania a hálózat infrastruktúráját, hogy teljesen ki tudják használni a megújuló energiaforrásokat. "
   },
   {
-    "bekezdes": "https://www.tisztajovo.hu/megujulo-energiaforrasok/2016/10/19/az-energiank-20-a-szeleromuvekbol-fog-erkezni"
+    "link2": "LINK: https://www.tisztajovo.hu/megujulo-energiaforrasok/2016/10/19/az-energiank-20-a-szeleromuvekbol-fog-erkezni"
   },
   {
     "focim": "Óceánok: mi a szerepük az életben, hogyan óvjuk őket?",
@@ -395,8 +400,10 @@
     ]
   },
   {
-    "bekezdes": "Óceánok: mi a szerepük az életben, hogyan óvjuk őket? | xForest",
-    "szerzo": ""
+    "link4": "LINK: Óceánok: mi a szerepük az életben, hogyan óvjuk őket? | xForest"
+  },
+  {
+    "szerzo": "Szerző"
   }
 ]
 }
