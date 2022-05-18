@@ -102,7 +102,7 @@ p {
   display: none;
   position: absolute;
   overflow: auto;
-  width:250px;
+  width: 250px;
 }
 
 .dropdown-content a {
@@ -118,4 +118,7 @@ p {
 
 .show {
   display: flex;
+}
+a {
+  color: black;
 }
