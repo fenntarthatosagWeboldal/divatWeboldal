@@ -42,3 +42,9 @@ body{
     max-width: 800px;
     margin: auto;
 }
+
+article{
+    max-width: 800px;
+    flex-flow: column wrap;
+}
+
