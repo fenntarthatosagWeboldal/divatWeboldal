@@ -10,10 +10,7 @@ a{
 a{
     color: rgb(61, 48, 29);
 }
-a:hover {
-    color: rgb(169, 144, 112);
-    text-decoration: underline;
-}
+
 h1{
     margin: 25px;
     margin-bottom: 55px;
