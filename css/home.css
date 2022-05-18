@@ -119,3 +119,26 @@ p {
 a {
   color: black;
 }
+
+/* bemutatkozó rész */
+section#section1 div#elsoharomdiv{
+  height: auto;
+  width:auto;
+
+}
+section#section1 div#elsoharomdiv ul.bevezetoLista li{
+  padding: 0px;
+  list-style-position: inside;
+}
+
+section#section1 div#elsoharomdiv ul.bevezetoLista{
+  margin: 20px;
+}
+
+section#section1 div#elsoharomdiv div.bekezdes a{
+  cursor: pointer;
+}
+section#section1 div#elsoharomdiv div.bekezdes a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}

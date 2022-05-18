@@ -38,44 +38,24 @@ p {
   padding: 0px;
 }
 
-#section2 #elsoharomdiv button {
+/* gombok formázása*/
+
+#section2 #elsoharomdiv a {
   padding: 5px;
   border-radius: 8px;
+  box-shadow: 5px 5px #888888;
   border-color: rgb(152, 145, 134);
   background-color: rgb(152, 145, 134);
   color: white;
-  margin: 10px;
+  margin: 20px;
 }
 
-#section2 #elsoharomdiv button:hover {
+#section2 #elsoharomdiv a:hover {
   padding: 5px;
   border-radius: 8px;
+  box-shadow: 8px 8px #888888;
   border-color: rgb(152, 145, 134);
-  background-color: rgb(152, 145, 134);
-  color: white;
-  margin: 10px;
-  opacity: 0.85;
-  cursor: pointer;
-}
-
-#section4 #div4 a {
-  text-decoration: none;
-  color: white;
-}
-#section4 #div4 button {
-  padding: 5px;
-  border-radius: 8px;
-  border-color: rgb(152, 145, 134);
-  background-color: rgb(152, 145, 134);
-  color: white;
-  margin: 10px;
-}
-
-#section4 #div4 button:hover {
-  padding: 5px;
-  border-radius: 8px;
-  border-color: rgb(152, 145, 134);
-  background-color: rgb(152, 145, 134);
+  background-color: rgb(113, 110, 104);
   color: white;
   margin: 10px;
   opacity: 0.85;
@@ -86,6 +66,29 @@ p {
   text-decoration: none;
   color: white;
 }
+#section4 #div4 a {
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 5px 5px #888888;
+  border-color: rgb(152, 145, 134);
+  background-color: rgb(152, 145, 134);
+  color: white;
+  margin: 10px;
+}
+
+#section4 #div4 a:hover {
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 8px 8px #888888;
+  border-color: rgb(152, 145, 134);
+  background-color: rgb(113, 110, 104);
+  color: white;
+  margin: 10px;
+  opacity: 0.85;
+  cursor: pointer;
+}
+/* gombok formázásának vége */
+
 footer {
   display: flex;
   justify-content: center;
@@ -151,6 +154,7 @@ a {
   }
 
   section {
+    /* Ide 100%-ot állítanék és minden fog látszani (csak majd egybefolynak). Kata */
     height: 500px;
   }
   #sidebar {
