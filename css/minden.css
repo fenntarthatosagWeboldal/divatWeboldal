@@ -1,13 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=Libre+Bodoni&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap");
-body{
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
   background-image: url(../egyebkepek/b2.jpg);
 }
-
 h1 {
   letter-spacing: 5px;
   font-family: "IM Fell French Canon SC", serif;
+  text-align: center;
 }
 p,
 li,
@@ -24,15 +28,17 @@ h2 {
   font-family: "Cinzel", serif;
 }
 
-#section2 #elsoharomdiv h1,h2,p{
-  padding:20px
+#section2 #elsoharomdiv h1,
+h2,
+p {
+  padding: 20px;
 }
 
-#section2 #elsoharomdiv .bekezdes{
-  padding:0px
+#section2 #elsoharomdiv .bekezdes {
+  padding: 0px;
 }
 
-#section2 #elsoharomdiv button{
+#section2 #elsoharomdiv button {
   padding: 5px;
   border-radius: 8px;
   border-color: rgb(152, 145, 134);
@@ -41,7 +47,7 @@ h2 {
   margin: 10px;
 }
 
-#section2 #elsoharomdiv button:hover{
+#section2 #elsoharomdiv button:hover {
   padding: 5px;
   border-radius: 8px;
   border-color: rgb(152, 145, 134);
@@ -52,11 +58,11 @@ h2 {
   cursor: pointer;
 }
 
-#section4 #div4 a{
+#section4 #div4 a {
   text-decoration: none;
   color: white;
 }
-#section4 #div4 button{
+#section4 #div4 button {
   padding: 5px;
   border-radius: 8px;
   border-color: rgb(152, 145, 134);
@@ -65,7 +71,7 @@ h2 {
   margin: 10px;
 }
 
-#section4 #div4 button:hover{
+#section4 #div4 button:hover {
   padding: 5px;
   border-radius: 8px;
   border-color: rgb(152, 145, 134);
@@ -76,7 +82,7 @@ h2 {
   cursor: pointer;
 }
 
-#section4 #div4 a{
+#section4 #div4 a {
   text-decoration: none;
   color: white;
 }
@@ -93,7 +99,7 @@ nav ul li {
   justify-content: center;
 }
 
-nav ul{
+nav ul {
   padding-top: 30px;
 }
 
@@ -121,22 +127,21 @@ a {
   transition: 0.5s;
 }
 
-
-#hamburgermenuicon{
+#hamburgermenuicon {
   height: 40px;
   left: 0;
   top: 0;
   position: fixed;
 }
-#hamburgermenuicon{
+#hamburgermenuicon {
   color: black;
 }
 
-@media screen and (max-width:400px) {
-  h1{
+@media screen and (max-width: 400px) {
+  h1 {
     font-size: 20px;
   }
-  p{
+  p {
     font-size: 10px;
   }
 
@@ -147,7 +152,7 @@ a {
   section {
     height: 500px;
   }
-  #sidebar{
+  #sidebar {
     background-color: rgb(210, 180, 141);
   }
 }

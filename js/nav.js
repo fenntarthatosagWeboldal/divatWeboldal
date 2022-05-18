@@ -5,6 +5,7 @@ function init() {
     toggle.addEventListener("click", show);
     function show() {
         document.getElementById("sidebar").classList.toggle("active");
+/*         document.getElementsByClassName("kepDiv").style.zIndex = "-1"; */
     }
 }
 

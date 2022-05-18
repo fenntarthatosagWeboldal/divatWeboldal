@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=Libre+Bodoni&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap");
+/* #content{
+  z-index: -1;
+} */
 .nev {
   position: absolute;
   bottom: 1px;
@@ -11,14 +14,14 @@
   letter-spacing: 2px;
 }
 
-
 #bevezetes {
   background-color: rgba(255, 233, 204, 0.3);
   display: flex;
   flex-direction: column;
-  width: 80%;  
+  width: 80%;
 }
-#bevezetes p,li{
+#bevezetes p,
+li {
   text-align: justify;
 }
 #content {
@@ -40,6 +43,7 @@
   cursor: pointer;
   /* filter: grayscale(100%); */
   /* filter: blur(.6px); */
+  
 }
 .kepDiv:hover {
   filter: grayscale(0);
