@@ -1,7 +1,3 @@
-*{
-    box-sizing: border-box;
-} 
-
 .kepek img{
     max-width: 100%;
     filter: blur(8px);
@@ -18,21 +14,17 @@ article{
 
 }
 
-
-
 article #tarolo{
     display: flex;
     flex-wrap: wrap;
     margin: auto;
     max-width: 900px;
-    margin-top: 50px;
+    margin-top: 95px;
 }
 
 header h1{
     text-align: center;
 }
-
-
 
 .kepek h1{
     margin: 0px;
@@ -52,4 +44,8 @@ footer{
 
 ul{
     padding: 0px;
+}
+
+.cursor {
+    cursor: pointer;
 }
