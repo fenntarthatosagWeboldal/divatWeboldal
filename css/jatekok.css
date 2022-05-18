@@ -9,31 +9,37 @@
 
 .kepek{
     max-width: 50%;
+    position: relative;
+    text-align: center;
 }
 
 article{
     display: flex;
+
 }
 
-article div{
-    position: relative;
+
+
+article #tarolo{
     display: flex;
     flex-wrap: wrap;
     margin: auto;
     max-width: 900px;
+    margin-top: 50px;
 }
 
 header h1{
     text-align: center;
 }
 
-div h1{
-    margin: 0px;
 
+
+.kepek h1{
+    margin: 0px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     position: absolute;
+    transform: translate(-50%, -50%);
     color: white;
 }
 
