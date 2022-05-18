@@ -52,7 +52,31 @@ h2 {
   cursor: pointer;
 }
 
-#section2 #elsoharomdiv a{
+#section4 #div4 a{
+  text-decoration: none;
+  color: white;
+}
+#section4 #div4 button{
+  padding: 5px;
+  border-radius: 8px;
+  border-color: rgb(152, 145, 134);
+  background-color: rgb(152, 145, 134);
+  color: white;
+  margin: 10px;
+}
+
+#section4 #div4 button:hover{
+  padding: 5px;
+  border-radius: 8px;
+  border-color: rgb(152, 145, 134);
+  background-color: rgb(152, 145, 134);
+  color: white;
+  margin: 10px;
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+#section4 #div4 a{
   text-decoration: none;
   color: white;
 }
@@ -104,7 +128,9 @@ a {
   top: 0;
   position: fixed;
 }
-
+#hamburgermenuicon{
+  color: black;
+}
 
 @media screen and (max-width:400px) {
   h1{
@@ -120,5 +146,8 @@ a {
 
   section {
     height: 500px;
+  }
+  #sidebar{
+    background-color: rgb(210, 180, 141);
   }
 }
