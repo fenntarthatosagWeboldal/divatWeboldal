@@ -27,5 +27,4 @@ function atad(ruhaTomb) {
     })
   }
 }
-/*   var aktualis = localStorage.getItem("aktualis")
-  var aktualis2 = JSON.parse(aktualis) */
+

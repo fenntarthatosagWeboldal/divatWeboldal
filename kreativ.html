@@ -1,61 +1,93 @@
 <!DOCTYPE html>
 <html lang="hu">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Galéria</title>
-    <link rel="icon" href="egyebkepek/icon.ico" />
-    <script src="js/nav.js"></script>
-    <script src="js/adatfeldolgoz.js"></script>
-    <script src="js/KR.js"></script>
-    <link rel="stylesheet" href="css/galeria.css" />
-    <link rel="stylesheet" href="css/minden.css" />
-  </head>
-  <body>
-    <header>
-      <nav id="sidebar">
-        <div class="toggle-btn">
-          <img
-            id="hamburgermenuicon"
-            src="homeKepek/hamburgermenuicon5.jpg"
-            alt=""
-          />
-        </div>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="cikkek.html">Cikkek</a></li>
-          <li><a href="index.html#section3">Galéria</a></li>
-          <li><a href="jatekok.html">Játékok</a></li>
-        </ul>
-      </nav>
-      <h1>Divatbemutató</h1>
-    </header>
-    <article id="container">
-      <header><h1 id="cim">Divatbemutató galéria</h1></header>
-      
-      <section id="bevezetes">
-        <h2 id="alcim">A kreatív kísérletek kollekció:</h2>
-        <p>
-          A kreatív kísérletek kollekció bepillantást enged a tervezési folyamat
-          egyik fázisába, ahol a diákok kötöttségek nélkül, a formákkal szabadon
-          kísérletezve alkothatták meg az elképzeléseiket régi férfiingeket
-          használva alapanyagként.<br />A feladat az ing alkotóelemeire bontása,
-          a kapott alkatrészek újrakomponálása volt.<br />
-          A bemutatásra kerülő modellek a tervezési folyamat egy
-          pillanatfelvételét testesítik meg, a kibontakozó ötletek egy-egy
-          lehetséges irányát mutatják meg a számtalan lehetőség közül, amelyeket
-          továbbfejlesztve születnek majd meg a végső öltözékek
-        </p>
-      </section>
 
-      <section id="content"></section>
-    </article>
-    <footer>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galéria</title>
+  <link rel="icon" href="egyebkepek/icon.ico" />
+  <script src="js/nav.js"></script>
+  <script src="js/adatfeldolgoz.js"></script>
+  <script src="js/KR.js"></script>
+  <script src="js/ruhaoldal.js"></script>
+  <link rel="stylesheet" href="css/galeria.css" />
+  <link rel="stylesheet" href="css/minden.css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+    .mySlides {
+      display: none
+    }
+
+    .w3-left,
+    .w3-right,
+    .w3-badge {
+      cursor: pointer
+    }
+
+    .w3-badge {
+      height: 13px;
+      width: 13px;
+      padding: 0
+    }
+  </style>
+</head>
+
+<body>
+  
+  <header>
+    <nav id="sidebar">
+      <div class="toggle-btn">
+        <img id="hamburgermenuicon" src="homeKepek/hamburgermenuicon5.jpg" alt="" />
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cikkek.html">Cikkek</a></li>
+        <li><a href="index.html#section3">Galéria</a></li>
+        <li><a href="jatekok.html">Játékok</a></li>
+      </ul>
+    </nav>
+    <h1>Divatbemutató</h1>
+  </header>
+  <article id="container">
+    <header>
+      <h1 id="cim">Divatbemutató galéria</h1>
+    </header>
+
+    <section id="bevezetes">
+      <h2 id="alcim">A kreatív kísérletek kollekció:</h2>
       <p>
-        Készítők: Szundi Kata, Rohácsi Daniella, Vitay Zalán, Polgár Attila,
-        Vetési György Ádám
+        A kreatív kísérletek kollekció bepillantást enged a tervezési folyamat
+        egyik fázisába, ahol a diákok kötöttségek nélkül, a formákkal szabadon
+        kísérletezve alkothatták meg az elképzeléseiket régi férfiingeket
+        használva alapanyagként.<br />A feladat az ing alkotóelemeire bontása,
+        a kapott alkatrészek újrakomponálása volt.<br />
+        A bemutatásra kerülő modellek a tervezési folyamat egy
+        pillanatfelvételét testesítik meg, a kibontakozó ötletek egy-egy
+        lehetséges irányát mutatják meg a számtalan lehetőség közül, amelyeket
+        továbbfejlesztve születnek majd meg a végső öltözékek
       </p>
-    </footer>
-  </body>
+    </section>
+
+    <section id="content"></section>
+
+    <section id="Ruhaoldal">
+      <div id="leiras"></div>
+
+      <div id="Slideshow"></div>
+
+      <div id="Nevek"></div>
+    </section>
+    
+
+
+  </article>
+  <footer>
+    <p>
+      Készítők: Szundi Kata, Rohácsi Daniella, Vitay Zalán, Polgár Attila,
+      Vetési György Ádám
+    </p>
+  </footer>
+</body>
+
 </html>
