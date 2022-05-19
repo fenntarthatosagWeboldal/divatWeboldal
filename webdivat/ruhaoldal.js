@@ -14,25 +14,47 @@ function Class(elem) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 function init(){
+  beolvas();
 
-
-slideShow();
 }
 
+var zerowasteruhak = [];
+var kreativruhak =  [];
+
+function beolvas(fajlnev, tomb, jsonTomb, callback) {
+  fetch("js/ruhaoldal.json")
+    .then((response) => response.json())
+    .then((data) => {
+      data.zerowaste.forEach(elem => {
+        zerowasteruhak.push(elem)
+      })
+    }) 
+
+
+
+    .then((data) => {
+      data.kreativ.forEach(elem => {
+        kreativruhak.push(elem)
+      })
+    })
+    .catch((err) => {
+      console.log(err)
+    })
+}
+function feltoltRuhak(tomb) {
+
+  let txt = "";
+  for (let i = 0; i < tomb.length; i++) {
+    txt += `<div class = "kepDiv" style="background-image: url(${tomb[i].eleresiUt});"><h3 class="nev">${tomb[i].alkotoNev}</h3></div>`
+  }
+  ID("content").innerHTML = txt; 
+
+}
+
+function slideshow(){
+  
+}
 
 
 
