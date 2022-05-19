@@ -51,9 +51,11 @@ body{
 .kezdo{
     max-width: 300px;
     background-color: rgb(252, 241, 213);
-    padding: 5px;
+    padding: 10px;
     margin: auto;
     margin-bottom: 15px;
+    border-radius: 2px;
+    box-shadow: 5px 5px rgb(152, 145, 134);
 }
 
 .kezdo h1{
@@ -67,6 +69,13 @@ body{
 
 .btn {
     display: inline;
-    
+    cursor: pointer;
+    font-family: Cinzel, serif;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.btn:hover{
+    text-decoration: underline;
 }
 
