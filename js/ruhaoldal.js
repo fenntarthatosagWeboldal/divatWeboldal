@@ -15,6 +15,7 @@ function Class(elem) {
 
 
 function init(){
+ruhaoldalminden();
 
 }
 var localbolkapott = localStorage.getItem("aktualis")
@@ -25,7 +26,7 @@ var kreativruhak =  [];
 
 
 
-function feltoltRuhak(tomb) {
+function ruhaoldalminden(){
 
   let txt = "";
   for (let index = 0; index < aktualis.kepek.length; index++) {
