@@ -5,9 +5,7 @@ function $(elem) { return document.querySelectorAll(elem); }
 function $1(elem) { return document.querySelector(elem); }
 
 const zwRuhak = []
-for (let i = 1; i <= 54; i++) {
-  esemenyKepek.push(i)
-}
+
 function init() {
   beolvas("ruhaoldal.json", zwRuhak, "zerowaste", feltoltRuhak)
 }
