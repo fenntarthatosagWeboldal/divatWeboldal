@@ -39,12 +39,34 @@ ul.cikkekFels li{
 }
 
 body{
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
 }
 
-article{
-    max-width: 800px;
-    flex-flow: column wrap;
+#cikk1, #cikk2, #cikk3, #cikk4, #cikk5, #cikk6, #cikk7, #cikk8, #cikk9{
+    max-width: 300px;
+    display: none;
+}
+
+.kezdo{
+    max-width: 300px;
+    background-color: rgb(252, 241, 213);
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.kezdo h1{
+    font-size: 20px;
+    margin: auto;
+}
+
+.kezdo h2{
+    font-size: 20px;
+}
+
+.btn {
+    display: inline;
+    
 }
 

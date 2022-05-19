@@ -74,7 +74,7 @@ function megjelenit1() {
       else if(key.includes("link8")){
         txt += `<div class="bekezdes"><a href="https://holyduck.hu/hol-vasaroljak/etikus-divat-magyar-webshop/" target="_blank">${cikkekTomb[index][key]}</a></div>`;
       }
-
+        
     }
   }
   tarolo.innerHTML = txt
@@ -550,4 +550,67 @@ function beolvas(tomb, fajlnev, callbackfv) {
       //console.log(tomb)
     })
     .catch(err => { console.log(err) });
+}
+
+function klikkTobb1() {
+  ID("cikk1").style.display = "block";
+}
+function klikkKevesebb1() {
+  ID("cikk1").style.display = "none";
+}
+
+function klikkTobb2() {
+  ID("cikk2").style.display = "block";
+}
+function klikkKevesebb2() {
+  ID("cikk2").style.display = "none";
+}
+
+function klikkTobb3() {
+  ID("cikk3").style.display = "block";
+}
+function klikkKevesebb3() {
+  ID("cikk3").style.display = "none";
+}
+
+function klikkTobb4() {
+  ID("cikk4").style.display = "block";
+}
+function klikkKevesebb4() {
+  ID("cikk4").style.display = "none";
+}
+
+function klikkTobb5() {
+  ID("cikk5").style.display = "block";
+}
+function klikkKevesebb5() {
+  ID("cikk5").style.display = "none";
+}
+
+function klikkTobb6() {
+  ID("cikk6").style.display = "block";
+}
+function klikkKevesebb6() {
+  ID("cikk6").style.display = "none";
+}
+
+function klikkTobb7() {
+  ID("cikk7").style.display = "block";
+}
+function klikkKevesebb7() {
+  ID("cikk7").style.display = "none";
+}
+
+function klikkTobb8() {
+  ID("cikk8").style.display = "block";
+}
+function klikkKevesebb8() {
+  ID("cikk8").style.display = "none";
+}
+
+function klikkTobb9() {
+  ID("cikk9").style.display = "block";
+}
+function klikkKevesebb9() {
+  ID("cikk9").style.display = "none";
 }
