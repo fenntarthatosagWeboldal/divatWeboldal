@@ -1,91 +1,108 @@
 <!DOCTYPE html>
 <html lang="hu">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Galéria</title>
-    <link rel="icon" href="egyebkepek/icon.ico" />
-    <script src="js/nav.js"></script>
-    <script src="js/adatfeldolgoz.js"></script>
-    <script src="js/ZW.js"></script>
-    <script src="js/ruhaoldal.js"></script>
-    <link rel="stylesheet" href="css/galeria.css" />
-    <link rel="stylesheet" href="css/minden.css" />
-  </head>
-  <body>
-    <header>
-      <nav id="sidebar">
-        <div class="toggle-btn">
-          <img
-            id="hamburgermenuicon"
-            src="homeKepek/hamburgermenuicon5.jpg"
-            alt=""
-          />
-        </div>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="cikkek.html">Cikkek</a></li>
-          <li><a href="index.html#section3">Galéria</a></li>
-          <li><a href="jatekok.html">Játékok</a></li>
-        </ul>
-      </nav>
-      <h1>Divatbemutató</h1>
-    </header>
-    <article id="container">
-      <h1 id="cim">Divatbemutató galéria</h1>
-      <section id="bevezetes">
-        <h2 id="alcim">A zero waste kollekció:</h2>
-        <p>
-          Egy jól tervezett folyamat lényege, hogy ne keletkezzen szemét,
-          legfeljebb hulladék. A természetben az anyagok folyamatos átalakuláson
-          mennek keresztül, de sohasem kerülnek ki egy zárt körforgásból. Vagyis
-          körkörösen, a lehető leghatékonyabban újrahasznosítható erőforrások.
-          Ezzel szemben az átgondolatlan termelési folyamatok felesleget
-          eredményeznek. Ez a szemét. Teljesen mindegy, hogy a szemét elpazarolt
-          alapanyag, energia, vagy humán tőke. A hulladék nélküli öltözékek
-          elkészítése magas szintű szabászati és kivitelezési ismereteket
-          feltételez, ami korlátozta volna a lehetőségeket. Ezért a hulladék
-          mentesség bemutatására három tervezési és kivitelezési koncepciót
-          választottunk:
-        </p>
-        <ul>
-          <li>
-            hulladékmentes szabászati és kivitelezési megoldásokkal készített
-            öltözékek,
-          </li>
-          <li>maradék anyagok felhasználásával készített öltözékek,</li>
-          <li>upcycle koncepcióval készített öltözékek.</li>
-        </ul>
-        <p>
-          Ezekkel az eljárásokkal azok számára is adhatnak a diákok kreatív
-          ötleteket, akik tudnak varrni és azoknak is, akik most kapnak kedvet
-          ahhoz, hogy megtanulják
-        </p>
-      </section>
-      
-      <section id="content">
 
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galéria</title>
+  <link rel="icon" href="egyebkepek/icon.ico" />
+  <script src="js/nav.js"></script>
+  <script src="js/adatfeldolgoz.js"></script>
+  <script src="js/ZW.js"></script>
+  <script src="js/ruhaoldal.js"></script>
+  <link rel="stylesheet" href="css/galeria.css" />
+  <link rel="stylesheet" href="css/minden.css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+    .mySlides {
+      display: none
+    }
 
-      <section id="Ruhaoldal">
-        <div id="leiras">
+    .w3-left,
+    .w3-right,
+    .w3-badge {
+      cursor: pointer
+    }
 
-        </div>
+    .w3-badge {
+      height: 13px;
+      width: 13px;
+      padding: 0
+    }
+  </style>
+</head>
 
-        <div id="Slideshow">
-
-        </div>
-
-        <div id="Nevek">
-
-        </div>
-      </section>
-    </article>
-    <footer>
+<body>
+  <header>
+    <nav id="sidebar">
+      <div class="toggle-btn">
+        <img id="hamburgermenuicon" src="homeKepek/hamburgermenuicon5.jpg" alt="" />
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cikkek.html">Cikkek</a></li>
+        <li><a href="index.html#section3">Galéria</a></li>
+        <li><a href="jatekok.html">Játékok</a></li>
+      </ul>
+    </nav>
+    <h1>Divatbemutató</h1>
+  </header>
+  <article id="container">
+    <h1 id="cim">Divatbemutató galéria</h1>
+    <section id="bevezetes">
+      <h2 id="alcim">A zero waste kollekció:</h2>
       <p>
-        Készítők: Szundi Kata, Rohácsi Daniella, Vitay Zalán, Polgár Attila, Vetési György Ádám
+        Egy jól tervezett folyamat lényege, hogy ne keletkezzen szemét,
+        legfeljebb hulladék. A természetben az anyagok folyamatos átalakuláson
+        mennek keresztül, de sohasem kerülnek ki egy zárt körforgásból. Vagyis
+        körkörösen, a lehető leghatékonyabban újrahasznosítható erőforrások.
+        Ezzel szemben az átgondolatlan termelési folyamatok felesleget
+        eredményeznek. Ez a szemét. Teljesen mindegy, hogy a szemét elpazarolt
+        alapanyag, energia, vagy humán tőke. A hulladék nélküli öltözékek
+        elkészítése magas szintű szabászati és kivitelezési ismereteket
+        feltételez, ami korlátozta volna a lehetőségeket. Ezért a hulladék
+        mentesség bemutatására három tervezési és kivitelezési koncepciót
+        választottunk:
       </p>
-    </footer>
-  </body>
+      <ul>
+        <li>
+          hulladékmentes szabászati és kivitelezési megoldásokkal készített
+          öltözékek,
+        </li>
+        <li>maradék anyagok felhasználásával készített öltözékek,</li>
+        <li>upcycle koncepcióval készített öltözékek.</li>
+      </ul>
+      <p>
+        Ezekkel az eljárásokkal azok számára is adhatnak a diákok kreatív
+        ötleteket, akik tudnak varrni és azoknak is, akik most kapnak kedvet
+        ahhoz, hogy megtanulják
+      </p>
+    </section>
+
+    <section id="content">
+
+    </section>
+
+    <section id="Ruhaoldal">
+      <div id="leiras">
+
+      </div>
+
+      <div id="Slideshow" class="w3-content w3-display-container">
+
+      </div>
+
+      <div id="Nevek">
+
+      </div>
+    </section>
+  </article>
+  <footer>
+    <p>
+      Készítők: Szundi Kata, Rohácsi Daniella, Vitay Zalán, Polgár Attila, Vetési György Ádám
+    </p>
+  </footer>
+</body>
+
 </html>
