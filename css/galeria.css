@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=Libre+Bodoni&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap");
- nav{
+nav {
   z-index: 1;
-} 
+}
 .nev {
   position: absolute;
   bottom: 1px;
@@ -43,7 +43,6 @@ li {
   cursor: pointer;
   /* filter: grayscale(100%); */
   /* filter: blur(.6px); */
-  
 }
 .kepDiv:hover {
   filter: grayscale(0);
@@ -59,4 +58,35 @@ li {
 }
 a {
   text-decoration: none;
+}
+
+/* slideshow */
+#Ruhaoldal {
+  display: grid;
+  grid-template-areas:
+    "sl sl n n"
+    "sl sl l l";
+  margin: 150px;
+  background-color: rgba(255, 233, 204, 0.3);
+}
+#Ruhaoldal p {
+  font-size: 24pt;
+}
+#leiras {
+  grid-area: l;
+}
+#Slideshow {
+  grid-area: sl;
+}
+#Nevek {
+  grid-area: n;
+  height: 150px;
+}
+@media screen and (width: 750px) {
+  #Ruhaoldal {
+    grid-template-areas:
+      "sl sl"
+      "n n"
+      "l l";
+  }
 }

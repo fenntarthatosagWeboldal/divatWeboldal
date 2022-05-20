@@ -1,32 +1,35 @@
-window.addEventListener("load", init);
 function ID(elem) { return document.getElementById(elem); }
 function $(elem) { return document.querySelectorAll(elem); }
 function $1(elem) { return document.querySelector(elem); }
 function Class(elem) { return document.getElementsByClassName(elem); }
 
-function init() {
-  
-}
-
 function ruhaoldalminden() {
 
-  
+
   var localbolkapott = localStorage.getItem("aktualis")
   var aktualis = JSON.parse(localbolkapott)
 
-  let txt = "";
-  for (let index = 0; index < aktualis.kepek.length; index++) {
-    txt += `<img class='mySlides' src=ruhakepek/zerowaste/${aktualis.kepek[index]}.jpg style="width:100%">`
-    console.log(txt)
+  let txt = ""
+
+  let mappa
+  if (ID("alcim").innerHTML == "A zero waste kollekció:") {
+    mappa = "zerowaste"
+  } else {
+    mappa = "kreativ"
   }
 
-  txt += `<div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+
+  for (let index = 0; index < aktualis.kepek.length; index++) {
+    txt += `<img class='mySlides' src=ruhakepek/${mappa}/${aktualis.kepek[index]}.jpg style="width:100%">`
+  }
+
+  txt += `<div class="w3-center w3-container w3-section w3-large w3-text-black w3-display-bottommiddle" style="width:100%">
   <div class="w3-left w3-hover-text-khaki" >&#10094;</div>
   <div class="w3-right w3-hover-text-khaki" >&#10095;</div>`
 
   ID("Slideshow").innerHTML = txt;
-  txt = `<p>${aktualis.Leiras}</p>`;
 
+  txt = `<p>${aktualis.Leiras}</p>`;
   ID("leiras").innerHTML = txt;
   txt = `<h1>Tervező neve: ${aktualis.alkotoNev}</h1>`
   txt += `<h2>${aktualis.Model}</h2>`
@@ -70,6 +73,6 @@ function ruhaoldalminden() {
       dots[i].className = dots[i].className.replace(" w3-white", "");
     }
     x[slideIndex - 1].style.display = "block";
-    
+
   }
 }

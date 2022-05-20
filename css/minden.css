@@ -141,7 +141,7 @@ a {
   color: black;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   h1 {
     font-size: 20px;
   }
@@ -154,10 +154,10 @@ a {
   }
 
   section {
-    /* Ide 100%-ot állítanék és minden fog látszani (csak majd egybefolynak). Kata */
+   
     height: 500px;
   }
   #sidebar {
     background-color: rgb(210, 180, 141);
   }
-}
+} */
