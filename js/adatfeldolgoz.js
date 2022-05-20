@@ -24,7 +24,9 @@ function atad(ruhaTomb) {
   for (let i = 0; i < tomb.length; i++) {
     tomb[i].addEventListener("click", function () {
       localStorage.setItem("aktualis", JSON.stringify(ruhaTomb[i]))
+      ruhaoldalminden();
     })
+    
   }
 }
 
