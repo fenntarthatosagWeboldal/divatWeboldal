@@ -9,6 +9,7 @@
     <script src="js/nav.js"></script>
     <script src="js/ruhaoldal.js"></script>
     <script src="js/adatfeldolgoz.js"></script>
+    <script src="js/pageUp.js"></script>
     <script src="js/ZW.js"></script>
 
     <link rel="stylesheet" href="css/galeria.css" />
@@ -102,5 +103,16 @@
         Vetési György Ádám
       </p>
     </footer>
+    <button
+    
+      id="pageUpGomb"
+      onclick="backToTop()"
+    ><img src="egyebkepek/top.png" alt=""></button>
+    <script>
+      function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
   </body>
 </html>

@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/jatekok.css" />
   <script src="js/nav.js"></script>
   <script src="js/jatekok.js"></script>
+  <script src="js/pageUp.js"></script>
 </head>
 
 <body>
@@ -53,5 +54,16 @@
       Készítők: Szundi Kata, Rohácsi Daniella, Vitay Zalán, Polgár Attila, Vetési György Ádám
     </p>
   </footer>
+  <button
+    
+      id="pageUpGomb"
+      onclick="backToTop()"
+    ><img src="egyebkepek/top.png" alt=""></button>
+    <script>
+      function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
 </body>
 </html>

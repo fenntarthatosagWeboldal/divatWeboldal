@@ -10,6 +10,7 @@
     <script src="js/adatfeldolgoz.js"></script>
     <script src="js/KR.js"></script>
     <script src="js/ruhaoldal.js"></script>
+    <script src="js/pageUp.js"></script>
     <link rel="stylesheet" href="css/galeria.css" />
     <link rel="stylesheet" href="css/minden.css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
@@ -88,5 +89,16 @@
         Vetési György Ádám
       </p>
     </footer>
+    <button
+    
+      id="pageUpGomb"
+      onclick="backToTop()"
+    ><img src="egyebkepek/top.png" alt=""></button>
+    <script>
+      function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
   </body>
 </html>

@@ -2,7 +2,7 @@
   width: 300px;
   height: 250px;
 }
-.gomb {
+.nyilGomb {
   width: 30px;
   height: 20px;
   background-color: #ffe7bd;
@@ -16,14 +16,14 @@
   padding: 10px 12px;
   text-decoration: none;
 }
-.gomb:hover {
+.nyilGomb:hover {
   background-color: #ffffff;
 }
-.gomb:active {
+.nyilGomb:active {
   position: relative;
   top: 1px;
 }
-.gomb img {
+.nyilGomb img {
   width: 100%;
 }
 #gombok {
