@@ -12,16 +12,21 @@ function $1(elem) {
     return document.querySelector(elem)
 }
 //memória -- gyerek
-const kepek = [];
+var kepek = []
+const eredetikepek = []
+const felforditottkepek = []
 
 function memoria() {
-    var txt = "<div>"
-    for (let index = 0; index < kepek.length; index++) {
-        txt += `<img src="${kepek[index].kepeleres}" alt="${kepek[index].kepalt}">`
+    var txt = "<div class=memoriakepek>"
+    for (let i = 0; i < 8; i++) {
+        for (let j = 0; j < 2; j++) {
+            txt += `<img class="${kepek[i].kepalt}" src="${kepek[i].kepeleres}" alt="${kepek[i].kepalt}">` 
+            eredetikepek.push(`kepek/kep${i + 1}.jpg`)
+        }
     }
     txt += "</div>"
-    //console.log(txt)
-    ID("kecske").innerHTML = txt
+    console.log(txt)
+    ID("fo").innerHTML = txt
 }
 //kép-szó párosító -- gyerek
 
@@ -29,43 +34,77 @@ function memoria() {
 
 //wordle -- felnőtt
 
-//init
-function init() {
-    feltolt()
-    mutat()
-    //memoria()
-}
+
 
 function feltolt() {
     fetch("js/jatekok.json")
         .then((response) => response.json())
         .then((data) => {
-            console.log(data)
-            console.log(data.memoriaj)
             data.memoriaj.forEach(elem => {
                 kepek.push(elem)
             })
             console.log(kepek)
+            memoria()
+            kepekElrejt()
+            kepreKattintas()
         })
         .catch((err) => {
             console.log(err)
         });
 }
 
-function mutat(){
-    var divkep = Class("kepek")
-    for (let i = 0; i < divkep.length; i++) {
-        divkep[i].addEventListener("click", memoria)
-        divkep[i].addEventListener("mouseover", hover)
-        divkep[i].addEventListener("mouseout", hoverOff) 
+
+//init
+function init() {
+    feltolt()
+}
+
+function kepekElrejt() {
+    const kepTomb = $(".memoriakepek img")
+    console.log(kepTomb)
+    kepTomb.forEach(function (kepTombElem) {
+        kepTombElem.src = "jatekKepek/hatter.jpg"
+    });
+}
+
+function kepreKattintas() {
+    const kepTomb = $(".memoriakepek img")
+    kepTomb.forEach(function (kepTombElem, index) {
+        kepTombElem.addEventListener("click", kepMutat)
+    });
+}
+
+function kepMutat() {
+    if (felforditottkepek.length < 2) {
+        event.target.src = `jatekKepek/${event.target.className}.jpg`
+        felforditottkepek.push(event.target.className)
+        console.log(felforditottkepek)
     }
-    
+    if (felforditottkepek.length === 2) {
+        ellenorzes()
+        felforditottkepek.splice(0)
+    }
 }
 
-function hover(){
-    event.target.className += " cursor"
-}
-
-function hoverOff(){
-    event.target.className = "kepek"
-}
+function ellenorzes() {
+    if (felforditottkepek[0] === felforditottkepek[1]) {
+        const kepTomb = $(".memoriakepek img")
+        kepTomb.forEach(function (elem) {
+            if (elem.className === felforditottkepek[0]) {
+                elem.style.display = "none"
+                elem.removeEventListener("click", kepMutat)
+            }
+        })
+    }
+    else {
+        setTimeout(function () {
+            felforditottkepek   .forEach(function (elem) {
+                Class(elem).src = `jatekKepek/${event.target.className}.jpg`
+            })
+        }, 1000)
+        const kepTomb = $(".memoriakepek img")
+        kepTomb.forEach(function (elem,) {
+            elem.src = "jatekKepek/hatter.jpg"
+        })
+    }
+} 

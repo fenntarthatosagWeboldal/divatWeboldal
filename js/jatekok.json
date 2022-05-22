@@ -1,25 +1,36 @@
 {
   "memoriaj": [
     {
-      "kepeleres": "jatekKepek/kepek.jpg",
+      "kepeleres": "jatekKepek/kep1.jpg",
       "kepalt": "kep1"
     },
     {
-      "kepeleres": "jatekKepek/kepek.jpg",
+      "kepeleres": "jatekKepek/kep2.jpg",
       "kepalt": "kep2"
-    }
-  ],
-  
-  "kepszoj": [
-    {
-      "szo": "asd",
-      "kepeleres": "jatekKepek/kep3.jpg",
-      "kepalt": "kep1"
     },
     {
-      "szo": "asd",
       "kepeleres": "jatekKepek/kep3.jpg",
-      "kepalt": "kep1"
+      "kepalt": "kep3"
+    },
+    {
+      "kepeleres": "jatekKepek/kep4.jpg",
+      "kepalt": "kep4"
+    },
+    {
+      "kepeleres": "jatekKepek/kep5.jpg",
+      "kepalt": "kep5"
+    },
+    {
+      "kepeleres": "jatekKepek/kep6.jpg",
+      "kepalt": "kep6"
+    },
+    {
+      "kepeleres": "jatekKepek/kep7.jpg",
+      "kepalt": "kep7"
+    },
+    {
+      "kepeleres": "jatekKepek/kep8.jpg",
+      "kepalt": "kep8"
     }
   ]
 }
