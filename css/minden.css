@@ -141,8 +141,8 @@ a {
   color: black;
 }
 
-/* @media screen and (max-width: 600px) {
-  h1 {
+ @media screen and (max-width: 600px) {
+  /* h1 {
     font-size: 20px;
   }
   p {
@@ -151,13 +151,12 @@ a {
 
   section div {
     height: 80%;
-  }
+  } */
 
-  section {
-   
+  section {   
     height: 500px;
   }
   #sidebar {
     background-color: rgb(210, 180, 141);
   }
-} */
+} 

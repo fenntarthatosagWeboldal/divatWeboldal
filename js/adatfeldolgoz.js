@@ -21,13 +21,16 @@ function feltoltRuhak(tomb) {
 }
 function atad(ruhaTomb) {
   let tomb = Class("kepDiv")
+  localStorage.setItem("aktualis", JSON.stringify({ "eleresiUt": "foKepek/zerowaste/arokszallasi.jpg", "azon": "1", "alkotoNev": "Árokszállási Renáta Andrea", "fotos": "", "Model": "A Modell: A tervező.", "kepek": ["arokszallasi/1_kicsi", "arokszallasi/2_kicsi", "arokszallasi/3_kicsi"], "Leiras": "A ruhát a nyári strandszezonra terveztem, formáját tekintve egyszerű, fürdőruha fölé felvehető lenge ruha. Az anyagmaradékból pedig fejkendő készült a Nap erős sugárzása ellen. A ruha Árokszállási Renáta munkája." }))
+
+  ruhaoldalminden()
   for (let i = 0; i < tomb.length; i++) {
     tomb[i].addEventListener("click", function () {
       localStorage.setItem("aktualis", JSON.stringify(ruhaTomb[i]))
-      ID("Slideshow").scrollIntoView({ behavior: 'smooth', block: 'end'})
+      ID("Slideshow").scrollIntoView({ behavior: 'smooth', block: 'end' })
       ruhaoldalminden();
     })
-    
+
   }
 }
 
