@@ -9,7 +9,6 @@
     <script src="js/nav.js"></script>
     <script src="js/adatfeldolgoz.js"></script>
     <script src="js/ES.js"></script>
-    <script src="js/pageUp.js"></script>
     <link rel="stylesheet" href="css/galeria.css" />
     <link rel="stylesheet" href="css/esemenygaleria.css" />
     <link rel="stylesheet" href="css/minden.css" />
@@ -34,12 +33,12 @@
       <h1>Divatbemutató</h1>
     </header>
     <article id="container">
-      <header><h1 id="cim">Divatbemutató galéria - eseményfotók</h1></header>
       <h2 id="alcim">Eseményfotók</h2>
       <div id="gombok">
         <a href="#" class="nyilGomb" id="bal"
-          ><img src="egyebkepek/bal_gomb.png" alt="b"
-        /></a>
+          ><img src="egyebkepek/bal_gomb.png" alt="b" />
+        </a>
+        <div id="holTart"></div>
         <a href="#" class="nyilGomb" id="jobb"
           ><img src="egyebkepek/jobb_gomb.png" alt="j"
         /></a>
@@ -52,11 +51,9 @@
         Vetési György Ádám
       </p>
     </footer>
-    <button
-    
-      id="pageUpGomb"
-      onclick="backToTop()"
-    ><img src="egyebkepek/top.png" alt=""></button>
+    <button id="pageUpGomb" onclick="backToTop()">
+      <img src="egyebkepek/top.png" alt="" />
+    </button>
     <script>
       function backToTop() {
         document.body.scrollTop = 0;

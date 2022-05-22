@@ -10,6 +10,7 @@ for (let i = 1; i <= 50; i++) {
 }
 function init() {
   var pozicio = 1
+  ID("holTart").innerHTML = `<p>${pozicio}. oldal/5 oldal<p>`
   var kezdoIndex = 0
   var vegIndex = 10
 
@@ -31,6 +32,7 @@ function init() {
       pozicio = 1
     }
     feltoltEsemeny(esemenyKepek, kezdoIndex, vegIndex)
+    ID("holTart").innerHTML = `<p>${pozicio}. oldal/5 oldal<p>`
   }
   function balra() {
     console.log("bal gomb")
@@ -46,6 +48,7 @@ function init() {
       pozicio = 5
     }
     feltoltEsemeny(esemenyKepek, kezdoIndex, vegIndex)
+    ID("holTart").innerHTML = `<p>${pozicio}. oldal/5 oldal<p>`
   }
 }
 function feltoltEsemeny(tomb, kezdoIndex, vegIndex) {

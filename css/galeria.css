@@ -19,7 +19,7 @@ nav {
   display: flex;
   flex-direction: column;
   width: 80%;
-  padding: 30px;
+  padding: 40px;
 }
 #bevezetes p,
 li {
@@ -87,7 +87,7 @@ a {
   grid-area: n;
   height: 150px;
 }
-footer{
+footer {
   text-align: center;
 }
 @media screen and (width: 750px) {
