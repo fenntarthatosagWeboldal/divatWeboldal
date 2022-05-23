@@ -79,10 +79,9 @@ a {
 }
 #Slideshow {
   grid-area: sl;
-  height: 100%;
+  width: 480px;
   position: relative;
 }
-
 #Nevek {
   grid-area: n;
   height: 150px;
