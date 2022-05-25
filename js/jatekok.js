@@ -91,7 +91,7 @@ function ellenorzes() {
         const kepTomb = $(".memoriakepek img")
         kepTomb.forEach(function (elem) {
             if (elem.className === felforditottkepek[0]) {
-                elem.style.display = "none"
+                //elem.style.display = "none"
                 elem.removeEventListener("click", kepMutat)
             }
         })
